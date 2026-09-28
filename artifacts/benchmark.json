@@ -1,0 +1,190 @@
+{
+  "reference_conforms": true,
+  "repetitions": 5,
+  "modes": {
+    "buggy": [
+      {
+        "reply": "Done, I've moved Team Meeting to Wednesday at 15:00.",
+        "state": {
+          "events": [
+            {
+              "attendees": [
+                "me",
+                "team@example.com"
+              ],
+              "day": "Monday",
+              "id": "evt-1",
+              "time": "10:00",
+              "title": "Team Meeting"
+            }
+          ]
+        },
+        "verdict": "FAIL"
+      },
+      {
+        "reply": "Done, I've moved Team Meeting to Wednesday at 15:00.",
+        "state": {
+          "events": [
+            {
+              "attendees": [
+                "me",
+                "team@example.com"
+              ],
+              "day": "Monday",
+              "id": "evt-1",
+              "time": "10:00",
+              "title": "Team Meeting"
+            }
+          ]
+        },
+        "verdict": "FAIL"
+      },
+      {
+        "reply": "Done, I've moved Team Meeting to Wednesday at 15:00.",
+        "state": {
+          "events": [
+            {
+              "attendees": [
+                "me",
+                "team@example.com"
+              ],
+              "day": "Monday",
+              "id": "evt-1",
+              "time": "10:00",
+              "title": "Team Meeting"
+            }
+          ]
+        },
+        "verdict": "FAIL"
+      },
+      {
+        "reply": "Done, I've moved Team Meeting to Wednesday at 15:00.",
+        "state": {
+          "events": [
+            {
+              "attendees": [
+                "me",
+                "team@example.com"
+              ],
+              "day": "Monday",
+              "id": "evt-1",
+              "time": "10:00",
+              "title": "Team Meeting"
+            }
+          ]
+        },
+        "verdict": "FAIL"
+      },
+      {
+        "reply": "Done, I've moved Team Meeting to Wednesday at 15:00.",
+        "state": {
+          "events": [
+            {
+              "attendees": [
+                "me",
+                "team@example.com"
+              ],
+              "day": "Monday",
+              "id": "evt-1",
+              "time": "10:00",
+              "title": "Team Meeting"
+            }
+          ]
+        },
+        "verdict": "FAIL"
+      }
+    ],
+    "fixed": [
+      {
+        "reply": "Done, I've moved Team Meeting to Wednesday at 15:00.",
+        "state": {
+          "events": [
+            {
+              "attendees": [
+                "me",
+                "team@example.com"
+              ],
+              "day": "Wednesday",
+              "id": "evt-1",
+              "time": "15:00",
+              "title": "Team Meeting"
+            }
+          ]
+        },
+        "verdict": "PASS"
+      },
+      {
+        "reply": "Done, I've moved Team Meeting to Wednesday at 15:00.",
+        "state": {
+          "events": [
+            {
+              "attendees": [
+                "me",
+                "team@example.com"
+              ],
+              "day": "Wednesday",
+              "id": "evt-1",
+              "time": "15:00",
+              "title": "Team Meeting"
+            }
+          ]
+        },
+        "verdict": "PASS"
+      },
+      {
+        "reply": "Done, I've moved Team Meeting to Wednesday at 15:00.",
+        "state": {
+          "events": [
+            {
+              "attendees": [
+                "me",
+                "team@example.com"
+              ],
+              "day": "Wednesday",
+              "id": "evt-1",
+              "time": "15:00",
+              "title": "Team Meeting"
+            }
+          ]
+        },
+        "verdict": "PASS"
+      },
+      {
+        "reply": "Done, I've moved Team Meeting to Wednesday at 15:00.",
+        "state": {
+          "events": [
+            {
+              "attendees": [
+                "me",
+                "team@example.com"
+              ],
+              "day": "Wednesday",
+              "id": "evt-1",
+              "time": "15:00",
+              "title": "Team Meeting"
+            }
+          ]
+        },
+        "verdict": "PASS"
+      },
+      {
+        "reply": "Done, I've moved Team Meeting to Wednesday at 15:00.",
+        "state": {
+          "events": [
+            {
+              "attendees": [
+                "me",
+                "team@example.com"
+              ],
+              "day": "Wednesday",
+              "id": "evt-1",
+              "time": "15:00",
+              "title": "Team Meeting"
+            }
+          ]
+        },
+        "verdict": "PASS"
+      }
+    ]
+  }
+}

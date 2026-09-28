@@ -1,0 +1,6 @@
+[
+  {"name":"exact-reschedule","turns":["Move my Team Meeting from Monday at 10 AM to Wednesday at 3 PM."],"expected":{"title":"Team Meeting","day":"Wednesday","time":"15:00"}},
+  {"name":"reference-resolution","turns":["What's on my calendar Monday?","Move that to Wednesday at 3."],"expected":{"title":"Team Meeting","day":"Wednesday","time":"15:00"}},
+  {"name":"clarification","turns":["Move my Team Meeting.","Wednesday at 3 PM."],"expected":{"title":"Team Meeting","day":"Wednesday","time":"15:00"}},
+  {"name":"correction","turns":["Move my Team Meeting to Wednesday at 3.","Actually make it 4 PM instead."],"expected":{"title":"Team Meeting","day":"Wednesday","time":"16:00"}}
+]

@@ -1,0 +1,31 @@
+{
+  "description": "Vendor-neutral HTTP mapping; translate these fields into Tensile's connector UI. This is not a claimed Tensile import schema.",
+  "agent": {
+    "method": "POST",
+    "url": "http://127.0.0.1:8000/agent/chat",
+    "headers": {"Content-Type": "application/json"},
+    "body": {"session_id": "{{session_id}}", "message": "{{message}}"},
+    "reply_jsonpath": "$.reply",
+    "session_jsonpath": "$.session_id"
+  },
+  "before_each_scenario": {
+    "executor": "test orchestrator only",
+    "method": "POST",
+    "url": "http://127.0.0.1:8002/_debug/reset",
+    "body": {}
+  },
+  "verification": {
+    "executor": "state assertion only; never an agent tool",
+    "method": "GET",
+    "url": "http://127.0.0.1:8001/verification/calendar",
+    "selector": "$.events[?(@.title == 'Team Meeting')]",
+    "assert_count": 1,
+    "assert_fields": {"day": "Wednesday", "time": "15:00"}
+  },
+  "scenario": {
+    "message": "Move my Team Meeting from Monday at 10 AM to Wednesday at 3 PM.",
+    "session_policy": "new ID per scenario, same ID for all turns",
+    "parallelism": 1
+  },
+  "forbidden_agent_interfaces": ["/_debug/*", "/proxy", "/oauth2.googleapis.com/token", "ports 8002-8004"]
+}

@@ -1,0 +1,17 @@
+services:
+  reference:
+    build: .
+    environment:
+      GATEWAY_MODE: ${GATEWAY_MODE:-buggy}
+    ports:
+      - "127.0.0.1:${AGENT_PORT:-8000}:8000"
+      - "127.0.0.1:${VERIFICATION_PORT:-8001}:8001"
+      - "127.0.0.1:${ADMIN_PORT:-8002}:8002"
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    healthcheck:
+      test: ["CMD", "python", "-c", "from urllib.request import urlopen; urlopen('http://127.0.0.1:8002/_debug/health', timeout=2)"]
+      interval: 5s
+      timeout: 3s
+      retries: 5

@@ -1,0 +1,94 @@
+{
+  "runs": [
+    {
+      "reply": "Done, I've moved Team Meeting to Wednesday at 15:00.",
+      "state": {
+        "events": [
+          {
+            "attendees": [
+              "me",
+              "team@example.com"
+            ],
+            "day": "Wednesday",
+            "id": "evt-1",
+            "time": "15:00",
+            "title": "Team Meeting"
+          }
+        ]
+      },
+      "verdict": "PASS"
+    },
+    {
+      "reply": "Done, I've moved Team Meeting to Wednesday at 15:00.",
+      "state": {
+        "events": [
+          {
+            "attendees": [
+              "me",
+              "team@example.com"
+            ],
+            "day": "Wednesday",
+            "id": "evt-1",
+            "time": "15:00",
+            "title": "Team Meeting"
+          }
+        ]
+      },
+      "verdict": "PASS"
+    },
+    {
+      "reply": "Done, I've moved Team Meeting to Wednesday at 15:00.",
+      "state": {
+        "events": [
+          {
+            "attendees": [
+              "me",
+              "team@example.com"
+            ],
+            "day": "Wednesday",
+            "id": "evt-1",
+            "time": "15:00",
+            "title": "Team Meeting"
+          }
+        ]
+      },
+      "verdict": "PASS"
+    },
+    {
+      "reply": "Done, I've moved Team Meeting to Wednesday at 15:00.",
+      "state": {
+        "events": [
+          {
+            "attendees": [
+              "me",
+              "team@example.com"
+            ],
+            "day": "Wednesday",
+            "id": "evt-1",
+            "time": "15:00",
+            "title": "Team Meeting"
+          }
+        ]
+      },
+      "verdict": "PASS"
+    },
+    {
+      "reply": "Done, I've moved Team Meeting to Wednesday at 15:00.",
+      "state": {
+        "events": [
+          {
+            "attendees": [
+              "me",
+              "team@example.com"
+            ],
+            "day": "Wednesday",
+            "id": "evt-1",
+            "time": "15:00",
+            "title": "Team Meeting"
+          }
+        ]
+      },
+      "verdict": "PASS"
+    }
+  ]
+}

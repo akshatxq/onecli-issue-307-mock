@@ -1,0 +1,29 @@
+test_five_runs (tests.benchmark.test_determinism.DeterminismTests.test_five_runs) ... ok
+test_all_refreshes_and_expired_resources (tests.integration.test_environment.HTTPTests.test_all_refreshes_and_expired_resources) ... ok
+test_boundaries (tests.integration.test_environment.HTTPTests.test_boundaries) ... ok
+test_cancel_refresh (tests.integration.test_environment.HTTPTests.test_cancel_refresh) ... ok
+test_environment_refresh_for_drive_gmail_vertex (tests.integration.test_environment.HTTPTests.test_environment_refresh_for_drive_gmail_vertex) ... ok
+test_exact_regression_and_audit (tests.integration.test_environment.HTTPTests.test_exact_regression_and_audit) ... ok
+test_expired_from_start_and_retry (tests.integration.test_environment.HTTPTests.test_expired_from_start_and_retry) ... ok
+test_form_refresh (tests.integration.test_environment.HTTPTests.test_form_refresh) ... ok
+test_invalid_refresh_no_fallback (tests.integration.test_environment.HTTPTests.test_invalid_refresh_no_fallback) ... ok
+test_malformed_payloads_preserve_state (tests.integration.test_environment.HTTPTests.test_malformed_payloads_preserve_state) ... ok
+test_multi_turn (tests.integration.test_environment.HTTPTests.test_multi_turn) ... ok
+test_reset_sessions (tests.integration.test_environment.HTTPTests.test_reset_sessions) ... ok
+test_target_clarification (tests.integration.test_environment.HTTPTests.test_target_clarification) ... ok
+test_valid_resources (tests.integration.test_environment.HTTPTests.test_valid_resources) ... ok
+test_workflows (tests.integration.test_environment.HTTPTests.test_workflows) ... ok
+test_atomic_validation (tests.unit.test_protocol.CalendarTests.test_atomic_validation) ... ok
+test_slots (tests.unit.test_protocol.CalendarTests.test_slots) ... ok
+test_transport_and_validation_errors_do_not_claim_success (tests.unit.test_protocol.CompletionPolicyTests.test_transport_and_validation_errors_do_not_claim_success) ... ok
+test_expiry (tests.unit.test_protocol.OAuthTests.test_expiry) ... ok
+test_invalid_grants (tests.unit.test_protocol.OAuthTests.test_invalid_grants) ... ok
+test_providers (tests.unit.test_protocol.OAuthTests.test_providers) ... ok
+test_allowlist (tests.unit.test_protocol.RoutingTests.test_allowlist) ... ok
+test_refresh_routes (tests.unit.test_protocol.RoutingTests.test_refresh_routes) ... ok
+test_resources (tests.unit.test_protocol.RoutingTests.test_resources) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 8.430s
+
+OK
